@@ -1,3 +1,6 @@
 for 0/1 points, line is trivial
 
 for 2+ points, use lagrange interpolation to get a result (express everything as fractions so no floating point errors)
+
+before this, the idea was to set a matrix then invert it to find solutions to the equation (this was done by hand coding-wise, w/o numpy or other modules)
+now, either direct lagrange interpolation or matrix inversion is done to calc the answers
