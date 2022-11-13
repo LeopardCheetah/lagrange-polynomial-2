@@ -1,0 +1,3 @@
+for 0/1 points, line is trivial
+
+for 2+ points, use lagrange interpolation to get a result (express everything as fractions so no floating point errors)
